@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, :deployment_target => '6.0'
+
+target :Libtool do
+    pod 'AFNetworking'
+end
+
+target :LibtoolTests, :exclusive => true do
+    pod 'Kiwi'
+end

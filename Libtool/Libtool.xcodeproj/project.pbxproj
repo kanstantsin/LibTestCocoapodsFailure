@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140AAC5EDBDC9EF42E1025A2 /* libPods-Libtool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F85AA9149E99471ECEB5418C /* libPods-Libtool.a */; };
+		95CDFAC6891F1F271B44BDFF /* libPods-LibtoolTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9432B29835C7A4B6FF05470 /* libPods-LibtoolTests.a */; };
+		F63367BB1A0398990007AFE4 /* Libtool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F63367BA1A0398990007AFE4 /* Libtool.h */; };
+		F63367BD1A0398990007AFE4 /* Libtool.m in Sources */ = {isa = PBXBuildFile; fileRef = F63367BC1A0398990007AFE4 /* Libtool.m */; };
+		F63367C31A0398990007AFE4 /* libLibtool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F63367B71A0398990007AFE4 /* libLibtool.a */; };
+		F63367D21A039B760007AFE4 /* LibtoolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F63367D11A039B760007AFE4 /* LibtoolTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F63367C41A0398990007AFE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F63367AF1A0398980007AFE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F63367B61A0398990007AFE4;
+			remoteInfo = Libtool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F63367B51A0398990007AFE4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F63367BB1A0398990007AFE4 /* Libtool.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		014C6707199D72C0EE862282 /* Pods-Libtool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Libtool.release.xcconfig"; path = "Pods/Target Support Files/Pods-Libtool/Pods-Libtool.release.xcconfig"; sourceTree = "<group>"; };
+		03AEEA6F211E66FC76C1C60B /* Pods-Libtool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Libtool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Libtool/Pods-Libtool.debug.xcconfig"; sourceTree = "<group>"; };
+		6CDA46625A454C04B0B00123 /* Pods-LibtoolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibtoolTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LibtoolTests/Pods-LibtoolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D109BC1492955F9C6761530F /* Pods-LibtoolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibtoolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LibtoolTests/Pods-LibtoolTests.release.xcconfig"; sourceTree = "<group>"; };
+		F63367B71A0398990007AFE4 /* libLibtool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibtool.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63367BA1A0398990007AFE4 /* Libtool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Libtool.h; sourceTree = "<group>"; };
+		F63367BC1A0398990007AFE4 /* Libtool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Libtool.m; sourceTree = "<group>"; };
+		F63367C21A0398990007AFE4 /* LibtoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibtoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63367C81A0398990007AFE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63367D11A039B760007AFE4 /* LibtoolTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibtoolTest.m; sourceTree = "<group>"; };
+		F85AA9149E99471ECEB5418C /* libPods-Libtool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Libtool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9432B29835C7A4B6FF05470 /* libPods-LibtoolTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LibtoolTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F63367B41A0398990007AFE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140AAC5EDBDC9EF42E1025A2 /* libPods-Libtool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63367BF1A0398990007AFE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63367C31A0398990007AFE4 /* libLibtool.a in Frameworks */,
+				95CDFAC6891F1F271B44BDFF /* libPods-LibtoolTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66C5592DC5980D34CB580C25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03AEEA6F211E66FC76C1C60B /* Pods-Libtool.debug.xcconfig */,
+				014C6707199D72C0EE862282 /* Pods-Libtool.release.xcconfig */,
+				6CDA46625A454C04B0B00123 /* Pods-LibtoolTests.debug.xcconfig */,
+				D109BC1492955F9C6761530F /* Pods-LibtoolTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B07242AE0ECA6736C3696C9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F85AA9149E99471ECEB5418C /* libPods-Libtool.a */,
+				F9432B29835C7A4B6FF05470 /* libPods-LibtoolTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F63367AE1A0398980007AFE4 = {
+			isa = PBXGroup;
+			children = (
+				F63367B91A0398990007AFE4 /* Libtool */,
+				F63367C61A0398990007AFE4 /* LibtoolTests */,
+				F63367B81A0398990007AFE4 /* Products */,
+				66C5592DC5980D34CB580C25 /* Pods */,
+				B07242AE0ECA6736C3696C9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F63367B81A0398990007AFE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F63367B71A0398990007AFE4 /* libLibtool.a */,
+				F63367C21A0398990007AFE4 /* LibtoolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F63367B91A0398990007AFE4 /* Libtool */ = {
+			isa = PBXGroup;
+			children = (
+				F63367BA1A0398990007AFE4 /* Libtool.h */,
+				F63367BC1A0398990007AFE4 /* Libtool.m */,
+			);
+			path = Libtool;
+			sourceTree = "<group>";
+		};
+		F63367C61A0398990007AFE4 /* LibtoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				F63367C71A0398990007AFE4 /* Supporting Files */,
+				F63367D11A039B760007AFE4 /* LibtoolTest.m */,
+			);
+			path = LibtoolTests;
+			sourceTree = "<group>";
+		};
+		F63367C71A0398990007AFE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F63367C81A0398990007AFE4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F63367B61A0398990007AFE4 /* Libtool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63367CB1A0398990007AFE4 /* Build configuration list for PBXNativeTarget "Libtool" */;
+			buildPhases = (
+				FD725A14F752F8656FF5EBA1 /* Check Pods Manifest.lock */,
+				F63367B31A0398990007AFE4 /* Sources */,
+				F63367B41A0398990007AFE4 /* Frameworks */,
+				F63367B51A0398990007AFE4 /* CopyFiles */,
+				F66BDCD8F6D9D45F489E9129 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Libtool;
+			productName = Libtool;
+			productReference = F63367B71A0398990007AFE4 /* libLibtool.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F63367C11A0398990007AFE4 /* LibtoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63367CE1A0398990007AFE4 /* Build configuration list for PBXNativeTarget "LibtoolTests" */;
+			buildPhases = (
+				3F75EFAD744DC8C70B4AC332 /* Check Pods Manifest.lock */,
+				F63367BE1A0398990007AFE4 /* Sources */,
+				F63367BF1A0398990007AFE4 /* Frameworks */,
+				F63367C01A0398990007AFE4 /* Resources */,
+				6E31ECFC265BA7BFE72DA3E9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F63367C51A0398990007AFE4 /* PBXTargetDependency */,
+			);
+			name = LibtoolTests;
+			productName = LibtoolTests;
+			productReference = F63367C21A0398990007AFE4 /* LibtoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F63367AF1A0398980007AFE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Test;
+				TargetAttributes = {
+					F63367B61A0398990007AFE4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F63367C11A0398990007AFE4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = F63367B21A0398980007AFE4 /* Build configuration list for PBXProject "Libtool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F63367AE1A0398980007AFE4;
+			productRefGroup = F63367B81A0398990007AFE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F63367B61A0398990007AFE4 /* Libtool */,
+				F63367C11A0398990007AFE4 /* LibtoolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F63367C01A0398990007AFE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F75EFAD744DC8C70B4AC332 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E31ECFC265BA7BFE72DA3E9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LibtoolTests/Pods-LibtoolTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F66BDCD8F6D9D45F489E9129 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Libtool/Pods-Libtool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD725A14F752F8656FF5EBA1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F63367B31A0398990007AFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63367BD1A0398990007AFE4 /* Libtool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63367BE1A0398990007AFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63367D21A039B760007AFE4 /* LibtoolTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F63367C51A0398990007AFE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F63367B61A0398990007AFE4 /* Libtool */;
+			targetProxy = F63367C41A0398990007AFE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F63367C91A0398990007AFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F63367CA1A0398990007AFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F63367CC1A0398990007AFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AEEA6F211E66FC76C1C60B /* Pods-Libtool.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F63367CD1A0398990007AFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 014C6707199D72C0EE862282 /* Pods-Libtool.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F63367CF1A0398990007AFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CDA46625A454C04B0B00123 /* Pods-LibtoolTests.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LibtoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F63367D01A0398990007AFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D109BC1492955F9C6761530F /* Pods-LibtoolTests.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LibtoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F63367B21A0398980007AFE4 /* Build configuration list for PBXProject "Libtool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63367C91A0398990007AFE4 /* Debug */,
+				F63367CA1A0398990007AFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63367CB1A0398990007AFE4 /* Build configuration list for PBXNativeTarget "Libtool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63367CC1A0398990007AFE4 /* Debug */,
+				F63367CD1A0398990007AFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63367CE1A0398990007AFE4 /* Build configuration list for PBXNativeTarget "LibtoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63367CF1A0398990007AFE4 /* Debug */,
+				F63367D01A0398990007AFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F63367AF1A0398980007AFE4 /* Project object */;
+}
